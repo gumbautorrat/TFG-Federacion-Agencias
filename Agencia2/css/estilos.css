@@ -1,0 +1,151 @@
+/* -- HEADER -- */
+.navbar{
+	margin-bottom: 0;
+}
+
+.jumbotron{
+	background: #FAAC58;
+	color:#fff;
+	padding: 20px 0;
+}
+
+#titulo-backoffice{
+	margin-top: 0px;
+	font-size: 28px;
+}
+
+.articulos_agn1{
+	/* background: #CEECF5; */
+	background: #F1FBFD;
+}
+
+.articulos_agn2{
+	/* background: #F6E3CE; */
+	background: #FFF9E7;
+}
+
+.tipo{
+	margin-right: 5px;
+	margin-left:  0px;
+	cursor: pointer;
+}
+
+.datos_piso{
+	margin-top: 20px;
+	margin-left: 0px;
+	max-width: 230px;
+}
+
+#noresult{
+	margin-bottom: 200px;
+}
+
+/* -- POST -- */
+.main{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.post{
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #999;
+}
+
+.post .post-title a{
+	color:#333;
+}
+
+.post .thumb {
+	margin-right: 10px;
+	width: 40%;
+}
+
+.post .thumb img{
+	width: 100%;
+}
+
+/* menu */
+.btn-menu{
+	background: #F2F2F2;
+	/*background: #CEE3F6;*/
+	/*background: #428BCA*/;
+}
+
+/* Quitar el subrrayado de los enlaces */
+a:link   
+{   
+ text-decoration:none;   
+}
+
+/* Color de texto botones menu principal */
+.col-btn-men{
+	color: #FF8000;
+}
+
+.btn-menu:hover{
+	background-color: #E6E6E6;
+}
+
+#btn-salir{
+	margin-top: 30px;
+}
+
+/* Añadido *******************Pagina detalle******************/
+
+#amazingslider-1{
+	border: 1px solid #999;
+}
+
+
+.desctitulo{
+	/*font-size: 21px;*/
+	font-size: 20px;
+}
+
+#descripcion{
+	font-size: medium;
+}
+
+.datos_piso{
+	margin-top: -10px;
+}
+
+.tipo_detalle{
+	margin-right: 5px;
+	margin-left:  0px;
+	cursor: pointer;
+	/*margin-top: -10px;*/
+}
+
+/* Añadido ****************************************/
+
+#categorias{
+	background-color: #FAAC58;
+	border: none;
+}
+
+.post .contenedor-botones {
+	width: 100%;
+}
+
+#footer{
+	margin-top: 20px;
+}
+
+#nombre{
+	color: white;
+}
+
+/* -- Media Querie --*/
+@media screen and (max-width: 768px){
+	.post .thumb {
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+}
+
+#btn-limpiar{
+	width: 90px;
+}

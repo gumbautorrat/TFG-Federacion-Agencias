@@ -1,0 +1,75 @@
+/* menu */
+.btn-menu{
+	background: #F2F2F2;
+}
+
+.btn-menu:hover{
+	background-color: #E6E6E6;
+}
+
+/* -- HEADER -- */
+.navbar{
+	margin-bottom: 0;
+}
+
+.jumbotron{
+	background: #FAAC58;
+	color:#fff;
+	padding: 20px 0;
+	font-size: 0.875em;
+}
+
+#titulo-backoffice{
+	margin-top: 0px;
+	font-size: 28px;
+}
+
+/* -- POST -- */
+#main{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.eliminar{
+	/*margin-left: -10px;*/
+}
+
+/* menu */
+.btn-menu{
+	background: #F2F2F2;
+	/*background: #CEE3F6;*/
+	/*background: #428BCA*/;
+}
+
+/* Quitar el subrrayado de los enlaces */
+a:link   
+{   
+ text-decoration:none;   
+}   
+
+/* Color de texto botones menu principal */
+.col-btn-men{
+	color: #FF8000;
+}
+
+/* Color de texto enlace actualizar  */
+.actualizar{
+	color: #FF8000;
+}
+
+.btn-menu:hover{
+	background-color: #E6E6E6;
+}
+
+.panel-heading{
+	width: 100%;
+}
+
+/* -- Media Querie --*/
+@media screen and (max-width: 768px){
+	.post .thumb {
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+}
